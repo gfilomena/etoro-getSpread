@@ -1,8 +1,3 @@
-# Author: Giuseppe Filomena
-# email: salsx@hotmail.it
-# etoroID: salsx88
-
-
 # etoro-getSpread
 get Etoro spread from the eToro watchlist 
 
@@ -42,3 +37,6 @@ console.log("name: "+name+"  percentage: "+percentage+"  sell: "+sell+"   buy: "
 $$("body > ui-layout > div > div > div.main-app-view.ng-scope > watchlist-watchlist > div.main-content.list-view.ng-scope > watchlist-list > div > div.table-body.market.ng-pristine.ng-untouched.ng-valid.ng-scope.ui-sortable.ui-sortable-disabled.ng-not-empty > div:nth-child("+ i +") > watchlist-item > div > div.table-name-cell.table-cell.pointer.ui-sortable-handle > div.user-info > span.user-nickname.ng-binding")[0].innerText = name +"%" + percentage;	
 
 
+### Author: Giuseppe Filomena
+#### email: salsx@hotmail.it
+#### etoroID: salsx88
